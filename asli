@@ -1,0 +1,7 @@
+def jangolak(q):    
+    x=[]
+    for a in range(q):
+        if a%5==0 or a%3==0:
+            x.append(a)
+    
+    print(sum(x))
